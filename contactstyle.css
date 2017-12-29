@@ -1,0 +1,63 @@
+html, body {
+  background: #fbf8ef;
+  font-family: sans-serif;
+  padding: 1em;
+}
+
+h1 {
+  letter-spacing: 5px;
+  font:'BebasNeueRegular', sans-serif;
+  text-shadow: 1px 1px 4px #333333;
+  text-align: center;
+  margin-bottom: 0.05em;
+}
+
+form {
+   max-width: 600px;
+   text-align: center;
+   margin: 20px auto;}
+
+input, textarea {
+     border:0; outline:0;
+     padding: 1em;
+     border-radius: 8px;
+     display: block;
+     width: 100%;
+     margin-top: 1em;
+     font-family: sans-serif;
+     box-shadow:0 1px 1px rgba(black, 0.1);
+     resize: none;}
+
+input-submit {
+     color: white;
+     background: red;
+     cursor: pointer;}
+
+input-submit:hover {
+box-shadow:0 1px 1px 1px rgba(#aaa, 0.6));
+    }
+
+textarea {
+      height: 126px;
+  }
+
+halfleft{
+  float: left;
+  width: 48%;
+  margin-bottom: 1em;
+}
+
+halfright{ width: 50%; }
+
+halfleft{
+     margin-right: 2%;
+}
+
+
+@media (max-width: 480px) {
+  .halfleft{
+     width: 100%;
+     float: none;
+     margin-bottom: 0;
+  }
+}
