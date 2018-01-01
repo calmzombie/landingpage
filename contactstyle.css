@@ -26,18 +26,36 @@ input, textarea {
      color: white;
      background: #990033;
      cursor: pointer;
-     width: 100%;
+     text-transform: uppercase;
    }
 
 #input-submit:hover {
-    background: #a8a8a8;
-    color: white;
+    background: transparent;
+    color: black;
+    border-color: #990033;
+    border-style: solid;
+    border-width: 2px;
     }
 
 #input-message {
       height: 126px;
   }
 
+.left, .right{
+  float: left;
+  width: 100%;
+  margin-bottom: 1em;
+}
+
+.right{
+  width: 50%;
+  display: inline-block;
+}
+
+.left{
+     margin-right: 2%;
+     display: inline-block;
+}
 
 
 @media (max-width: 480px) {
