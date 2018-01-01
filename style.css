@@ -188,14 +188,16 @@ transition: all 0.4s ease 0s;
 		position: static;
 		display: none;
 	}
-	/*Create vertical spacing*/
+	/*Create vertical spacing between links menu*/
 	.mobile-menu li {
 		margin-bottom: 1px;
 	}
+
 	/*Make all menu links full width*/
 	.mobile-menu ul li, .mobile-menu li a {
 		width: 100%;
 	}
+
 	/*Display 'show menu' link*/
 	.mobile-menu .show-menu {
 		display:block;
