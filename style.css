@@ -97,6 +97,20 @@ a:hover{
   text-decoration: none;
 }
 
+/*animation when hover on menu*/
+.camera {
+  resize: none;
+  display: inline;
+  visibility: visible;
+  opacity: 0;
+  transition: 1s
+}
+
+li:hover ~ .camera{
+  opacity: 1;
+  transform: rotate(360deg);
+}
+
 /*hamburger menu*/
 @media screen and (max-width: 977px) {
   .menu {display:none;}
@@ -220,7 +234,6 @@ input, textarea {
 #input-message {
       height: 126px;
   }
-
 
 /*form with 2 parts*/
   .left {
