@@ -34,34 +34,40 @@ input, textarea {
     color: black;
     border-color: #990033;
     border-style: solid;
-    border-width: 2px;
+    border-width: 1.5px;
     }
 
 #input-message {
       height: 126px;
   }
 
-.left, .right{
-  float: left;
-  width: 100%;
-  margin-bottom: 1em;
-}
 
-.right{
-  width: 50%;
-  display: inline-block;
-}
+/*form with 2 parts*/
+  .left {
+    float: left;
+    width: 45%;
+    margin-bottom: 20px;
+  }
 
-.left{
-     margin-right: 2%;
-     display: inline-block;
-}
+  .right {
+    float: left;
+    width: 42%;
+    margin-bottom: 20px;
+    margin-left: 3em;
+  }
 
 
-@media (max-width: 480px) {
-  .halfleft{
+@media screen and (min-width: 977px) {
+  .body {
+    padding: 0 !important;
+  }
+  .left{
      width: 100%;
      float: none;
      margin-bottom: 0;
   }
+
+#contactme {
+  font-size: 20px;
+}
 }

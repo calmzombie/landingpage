@@ -2,12 +2,12 @@ body{
  background: #fbf8ef;
  font-family: 'Lato', sans-serif;
  margin: 0;
- padding: 80px;
 }
 
 .burger{
   display:none;
 }
+
 footer {
     text-align: center;
     color : #a8a8a8;
