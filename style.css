@@ -208,13 +208,13 @@ transition: all 0.4s ease 0s;
 
 
 /*mobile screen*/
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 525px) {
   header div { margin: 0; }
   header { padding: 0; }
   body {  background: #fbf8ef;
    font-family: 'Lato', sans-serif;
    margin: 0;
-   padding: 10px; }
+  }
   h1 {
      letter-spacing: 5px;
      font: 40px/1 'BebasNeueRegular', sans-serif;

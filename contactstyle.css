@@ -57,17 +57,15 @@ input, textarea {
   }
 
 
-@media screen and (min-width: 977px) {
-  .body {
-    padding: 0 !important;
-  }
-  .left{
-     width: 100%;
-     float: none;
-     margin-bottom: 0;
-  }
+@media screen and (max-width: 977px) {
+  form {
+     max-width: 600px;
+     text-align: center;
+     margin: auto;}
 
-#contactme {
-  font-size: 20px;
-}
+@media screen and (max-width: 500px){
+  .left, .right {
+    width: 100%;
+    margin-left: auto;
+  }
 }
