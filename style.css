@@ -172,7 +172,87 @@ transition: all 0.4s ease 0s;
     display: block;
 }
 
-/*Responsive Styles*/
+/*form style*/
+#contactme {
+  align-content: center;
+  letter-spacing: 5px;
+  font:'BebasNeueRegular', sans-serif;
+  text-shadow: 1px 1px 4px #333333;
+  text-align: center;
+  margin-bottom: 0.05em;
+}
+
+form {
+   max-width: 600px;
+   text-align: center;
+   margin: 20px auto;
+ }
+
+input, textarea {
+     border:0; outline:0;
+     padding: 1em;
+     border-radius: 8px;
+     display: block;
+     width: 100%;
+     margin-top: 1em;
+     font-family: 'Lato', sans-serif;
+     font-weight: bolder;
+     resize: none;
+   }
+
+#input-submit:hover {
+     color: white;
+     background: #990033;
+     border-color:#990033;
+     cursor: pointer;
+   }
+
+#input-submit {
+    background: transparent;
+    color: #555;
+    border-color: black;
+    border-style: solid;
+    border-width: 1.5px;
+    text-transform: uppercase;
+    transition: 0.1s background-color linear, 0.1s color linear;
+    }
+
+#input-message {
+      height: 126px;
+  }
+
+
+/*form with 2 parts*/
+  .left {
+    float: left;
+    width: 45%;
+    margin-bottom: 20px;
+  }
+
+  .right {
+    float: left;
+    width: 42%;
+    margin-bottom: 20px;
+    margin-left: 3em;
+  }
+
+/*responsive form*/
+@media screen and (max-width: 977px) {
+  form {
+     max-width: 600px;
+     text-align: center;
+     margin: auto;}
+}
+
+@media screen and (max-width: 500px){
+  .left, .right {
+    width: 100%;
+    margin-left: auto;
+  }
+}
+
+
+/*responsive page and menu*/
 
 @media screen and (max-width : 800px){
   .mobile-menu .lines {
