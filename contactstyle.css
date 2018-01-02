@@ -10,7 +10,8 @@
 form {
    max-width: 600px;
    text-align: center;
-   margin: 20px auto;}
+   margin: 20px auto;
+ }
 
 input, textarea {
      border:0; outline:0;
@@ -19,22 +20,26 @@ input, textarea {
      display: block;
      width: 100%;
      margin-top: 1em;
-     font-family: sans-serif;
-     resize: none;}
-
-#input-submit {
-     color: white;
-     background: #990033;
-     cursor: pointer;
-     text-transform: uppercase;
+     font-family: 'Lato', sans-serif;
+     font-weight: bolder;
+     resize: none;
    }
 
 #input-submit:hover {
+     color: white;
+     background: #990033;
+     border-color:#990033;
+     cursor: pointer;
+   }
+
+#input-submit {
     background: transparent;
-    color: black;
-    border-color: #990033;
+    color: #555;
+    border-color: black;
     border-style: solid;
     border-width: 1.5px;
+    text-transform: uppercase;
+    transition: 0.1s background-color linear, 0.1s color linear;
     }
 
 #input-message {
